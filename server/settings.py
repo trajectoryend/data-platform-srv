@@ -14,6 +14,8 @@ from datetime import timedelta
 from pathlib import Path
 
 from celery.schedules import crontab
+from server.config import (REDIS_PASSWORD, REDIS_HOST, REDIS_PORT, DEFAULT_CACHE_ID, CHANNEL_LAYERS_CACHE_ID,
+                    CELERY_BROKER_CACHE_ID)
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -97,12 +99,7 @@ ASGI_APPLICATION = "server.asgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-REDIS_PASSWORD = "nineven"
-REDIS_HOST = "redis"
-REDIS_PORT = 6379
-DEFAULT_CACHE_ID = 1
-CHANNEL_LAYERS_CACHE_ID = 2
-CELERY_BROKER_CACHE_ID = 3
+
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",

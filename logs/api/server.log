@@ -1,1 +1,1184 @@
 2024-05-06 07:05:27 [selector_events.py:__init__:64 DEBUG] Using selector: KqueueSelector
+2024-05-06 07:22:45 [selector_events.py:__init__:64 DEBUG] Using selector: KqueueSelector
+2024-05-06 07:22:45 [selector_events.py:__init__:64 DEBUG] Using selector: KqueueSelector
+2024-05-06 07:22:46 [server.py:run:120 INFO] HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2024-05-06 07:22:46 [server.py:run:129 INFO] Configuring endpoint tcp:port=8000:interface=127.0.0.1
+2024-05-06 07:22:46 [server.py:listen_success:160 INFO] Listening on TCP address 127.0.0.1:8000
+2024-05-06 07:23:02 [selector_events.py:__init__:64 DEBUG] Using selector: KqueueSelector
+2024-05-06 07:23:49 [selector_events.py:__init__:64 DEBUG] Using selector: KqueueSelector
+2024-05-06 07:24:09 [selector_events.py:__init__:64 DEBUG] Using selector: KqueueSelector
+2024-05-06 07:24:13 [selector_events.py:__init__:64 DEBUG] Using selector: KqueueSelector
+2024-05-06 07:24:20 [selector_events.py:__init__:64 DEBUG] Using selector: KqueueSelector
+2024-05-06 07:24:30 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:30 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:30 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:30 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:30 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:30 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:30 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:30 [signal_handler.py:clean_cache_handler:183 INFO] invalid cache <class 'system.models.UserInfo'>
+2024-05-06 07:24:33 [selector_events.py:__init__:64 DEBUG] Using selector: KqueueSelector
+2024-05-06 07:24:34 [signal_handler.py:clean_cache_handler:160 INFO] invalid cache <class 'system.models.UserRole'>
+2024-05-06 07:24:34 [signal_handler.py:clean_cache_handler:160 INFO] invalid cache <class 'system.models.UserRole'>
+2024-05-06 07:24:34 [signal_handler.py:clean_cache_handler:160 INFO] invalid cache <class 'system.models.UserRole'>
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:34 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:34 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:34 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:34 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:34 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:34 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:34 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:34 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:34 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:34 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:35 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:35 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:35 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:35 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:35 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:35 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:35 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:35 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:35 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:35 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:35 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:35 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:35 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:35 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:36 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:36 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:36 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:36 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:36 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:36 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:36 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:36 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:36 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:36 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:36 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:36 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:37 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:37 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:37 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:37 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:37 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:37 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:37 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:37 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:37 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:37 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:37 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:37 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:37 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:37 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:38 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:38 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:38 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:38 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:38 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:38 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:38 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:38 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:38 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:38 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:38 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:38 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:38 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:39 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:39 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:39 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:39 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:39 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:39 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:39 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:39 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:39 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:39 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:39 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:39 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:39 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:40 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:40 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:40 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:40 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:40 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:40 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:40 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:40 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:40 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:40 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:40 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:40 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:40 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:41 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:41 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:41 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:41 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:41 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:41 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:41 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:41 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:41 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:41 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:41 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:41 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:41 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:42 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:42 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:42 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:42 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:42 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:42 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:42 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:42 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:42 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:42 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:42 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_1
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_1_*
+2024-05-06 07:24:42 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_None
+2024-05-06 07:24:42 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_None
+2024-05-06 07:24:42 [signal_handler.py:clean_cache_handler:151 INFO] invalid cache <class 'system.models.Menu'>
+2024-05-06 07:24:42 [storage.py:__getattribute__:23 DEBUG] act:del_many cache_key:config_system_PICTURE_UPLOAD_SIZE
+2024-05-06 07:24:42 [storage.py:__getattribute__:23 DEBUG] act:del_many cache_key:config_system_PERMISSION_FIELD
+2024-05-06 07:24:43 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_*
+2024-05-06 07:24:43 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_*
+2024-05-06 07:24:43 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_*
+2024-05-06 07:24:43 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_*
+2024-05-06 07:24:43 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*_*
+2024-05-06 07:24:43 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_*_*
+2024-05-06 07:24:43 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_*_*
+2024-05-06 07:24:43 [storage.py:__getattribute__:23 DEBUG] act:del_many cache_key:config_system_REGISTER
+2024-05-06 07:24:43 [storage.py:__getattribute__:23 DEBUG] act:del_many cache_key:config_system_FILE_UPLOAD_SIZE
+2024-05-06 07:24:43 [storage.py:__getattribute__:23 DEBUG] act:del_many cache_key:config_system_LOGIN
+2024-05-06 07:24:43 [storage.py:__getattribute__:23 DEBUG] act:del_many cache_key:config_system_WEB_SITE_CONFIG
+2024-05-06 07:24:43 [storage.py:__getattribute__:23 DEBUG] act:del_many cache_key:config_system_PERMISSION_DATA
+2024-05-06 07:24:43 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserInfoView_retrieve_*
+2024-05-06 07:24:43 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserRoutesView_get_*
+2024-05-06 07:24:43 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_permission_*
+2024-05-06 07:24:43 [magic.py:invalid_cache:203 WARNING] invalid_cache cache_key:magic_cache_data_get_user_field_queryset_*
+2024-05-06 07:24:43 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_MenuView_list_*_*
+2024-05-06 07:24:43 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_unread_*_*
+2024-05-06 07:24:43 [magic.py:invalid_cache:217 WARNING] invalid_response_cache cache_key:magic_cache_response_UserNoticeMessage_list_*_*
+2024-05-06 07:24:43 [signal_handler.py:clean_cache_handler:156 INFO] invalid cache <class 'system.models.DataPermission'>
+2024-05-06 07:24:43 [signal_handler.py:clean_cache_handler:156 INFO] invalid cache <class 'system.models.DataPermission'>
+2024-05-06 07:24:43 [signal_handler.py:clean_cache_handler:156 INFO] invalid cache <class 'system.models.DataPermission'>
+2024-05-06 07:24:43 [signal_handler.py:clean_cache_handler:156 INFO] invalid cache <class 'system.models.DataPermission'>
+2024-05-06 07:24:43 [signal_handler.py:clean_cache_handler:156 INFO] invalid cache <class 'system.models.DataPermission'>
+2024-05-06 07:24:43 [signal_handler.py:clean_cache_handler:156 INFO] invalid cache <class 'system.models.DataPermission'>
+2024-05-06 07:24:43 [signal_handler.py:clean_cache_handler:156 INFO] invalid cache <class 'system.models.DataPermission'>
