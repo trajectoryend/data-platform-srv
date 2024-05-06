@@ -1,3 +1,5 @@
 .idea/
 server/__pycache__/
 */__pycache__/
+*.ini
+db.sqlite3
