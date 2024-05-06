@@ -15,7 +15,8 @@ from pathlib import Path
 
 from celery.schedules import crontab
 from server.config import (REDIS_PASSWORD, REDIS_HOST, REDIS_PORT, DEFAULT_CACHE_ID, CHANNEL_LAYERS_CACHE_ID,
-                    CELERY_BROKER_CACHE_ID)
+                           CELERY_BROKER_CACHE_ID, SYSTEM_DEBUG, MYSQL_NAME, MYSQL_USER, MYSQL_PASSWORD, MYSQL_HOST,
+                           MYSQL_PORT)
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,7 +28,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-mlq6(#a^2vk!1=7=xhp#$i=o5d%namfs=+b26$m#sh_2rco7j^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = SYSTEM_DEBUG
 
 # 如果前端是代理，则可以通过该配置，在系统构建url的时候，获取正确的 scheme
 # 需要在 前端加入该配置  proxy_set_header X-Forwarded-Proto https;
@@ -123,11 +124,11 @@ CACHES = {
 DATABASES = {
     # 'default': {
     #     'ENGINE': 'django.db.backends.mysql',
-    #     'NAME': 'xadmin',
-    #     'USER': 'server',
-    #     'PASSWORD': 'KGzKjZpWBp4R4RSa',
-    #     'HOST': 'mariadb',
-    #     'PORT': 3306,
+    #     'NAME': MYSQL_NAME,
+    #     'USER': MYSQL_USER,
+    #     'PASSWORD': MYSQL_PASSWORD,
+    #     'HOST': MYSQL_HOST,
+    #     'PORT': MYSQL_PORT,
     #     'CONN_MAX_AGE': 600,
     #     # 设置MySQL的驱动
     #     # 'OPTIONS': {'init_command': 'SET storage_engine=INNODB'},

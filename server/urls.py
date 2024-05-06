@@ -31,9 +31,9 @@ schema_view = get_schema_view(
     openapi.Info(
         title="Snippets API",
         default_version='v1',
-        description="Django Xadmin Server",
-        terms_of_service="https://github.com/nineaiyu/xadmin-server",
-        contact=openapi.Contact(email="ly_1301b@163.com"),
+        description="Data Platform Server",
+        terms_of_service="https://github.com/trajectoryend/data-platform-srv",
+        contact=openapi.Contact(email="x@iparp.com"),
     ),
     generator_class=CustomOpenAPISchemaGenerator,
     public=False,
