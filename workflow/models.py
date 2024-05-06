@@ -20,10 +20,8 @@ class WorkflowType(DbAuditModel, DbUuidModel):
 
 
 class Workflow(DbAuditModel, DbUuidModel):
-    to_workflow_type = models.ForeignKey(
-        to='WorkflowType', on_delete=models.SET_NULL, verbose_name="所属工作流类型", null=True, blank=True
-    )
-    name = models.CharField(verbose_name="名称", max_length=256, null=True, blank=True)
+    to_workflow_type = models.ForeignKey(to='WorkflowType', on_delete=models.SET_NULL, verbose_name="所属工作流类型")
+    name = models.CharField(verbose_name="名称", max_length=256)
     workflow_id = models.IntegerField(verbose_name="工作流ID")
     order_id = models.IntegerField(verbose_name="排序", default=9999)
     is_active = models.BooleanField(verbose_name="是否启用", default=True)
@@ -38,10 +36,8 @@ class Workflow(DbAuditModel, DbUuidModel):
 
 
 class TicketValidation(DbAuditModel, DbUuidModel):
-    to_workflow = models.ForeignKey(
-        to='Workflow', on_delete=models.SET_NULL, verbose_name="所属工作流", null=True, blank=True
-    )
-    unique_together = models.CharField(verbose_name="唯一值校验字段，使用逗号隔开", max_length=256, null=True, blank=True)
+    to_workflow = models.ForeignKey(to='Workflow', on_delete=models.SET_NULL, verbose_name="所属工作流")
+    unique_together = models.CharField(verbose_name="唯一值校验字段，使用逗号隔开", max_length=256)
     is_active = models.BooleanField(verbose_name="是否启用", default=True)
 
     class Meta:
@@ -54,24 +50,28 @@ class TicketValidation(DbAuditModel, DbUuidModel):
 
 
 class WorkflowRelation(DbAuditModel, DbUuidModel):
-    class RelationChoices(models.IntegerChoices):
-        ONE2ONE = 0, _("1 - 1")
-        ONE2MANY = 1, _("1 - N")
-        MANY2MANY = 2, _("N - N")
+    class RelationChoices(models.TextChoices):
+        ONE2ONE = 'One2One', _("1 - 1")
+        ONE2MANY = 'One2Many', _("1 - N")
+        MANY2MANY = 'Many2Many', _("N - N")
 
     src_workflow = models.ForeignKey(
-        to='Workflow', on_delete=models.SET_NULL, verbose_name="源工作流", null=True, blank=True
+        to='Workflow', on_delete=models.SET_NULL, verbose_name="源工作流", related_name="src_workflow"
     )
     dst_workflow = models.ForeignKey(
-        to='Workflow', on_delete=models.SET_NULL, verbose_name="目工作流", null=True, blank=True
+        to='Workflow', on_delete=models.SET_NULL, verbose_name="目工作流", related_name="dst_workflow"
     )
-    dst_ticket_search_params = models.TextField(verbose_name="目标工单搜索参数", null=True, blank=True)
-    src_ticket_search_params = models.TextField(verbose_name="源工单搜索参数", null=True, blank=True)
-    src_to_dst_relation = models.SmallIntegerField(
-        choices=RelationChoices, default=RelationChoices.ONE2MANY, verbose_name="源-目标约束"
+    dst_ticket_search_params = models.TextField(verbose_name="目标工单搜索参数", null=True, blank=True, default=None)
+    src_ticket_search_params = models.TextField(verbose_name="源工单搜索参数", null=True, blank=True, default=None)
+    src_to_dst_relation = models.CharField(
+        choices=RelationChoices, default=RelationChoices.ONE2ONE, verbose_name="源-目标约束", max_length=9
     )
-    src_to_dst_description = models.CharField(verbose_name="源-目标描述", max_length=256, null=True, blank=True)
-    dst_to_src_description = models.CharField(verbose_name="目标-源描述", max_length=256, null=True, blank=True)
+    src_to_dst_description = models.CharField(
+        verbose_name="源-目标描述", max_length=256, null=True, blank=True, default=None
+    )
+    dst_to_src_description = models.CharField(
+        verbose_name="目标-源描述", max_length=256, null=True, blank=True, default=None
+    )
     is_active = models.BooleanField(verbose_name="是否启用", default=True)
 
     class Meta:
@@ -86,7 +86,7 @@ class WorkflowRelation(DbAuditModel, DbUuidModel):
 class TicketRelation(DbAuditModel, DbUuidModel):
 
     to_workflow_relation = models.ForeignKey(
-        to='WorkflowRelation', on_delete=models.SET_NULL, verbose_name="所属工作流关系", null=True, blank=True
+        to='WorkflowRelation', on_delete=models.SET_NULL, verbose_name="所属工作流关系"
     )
     src_ticket_id = models.IntegerField(verbose_name="源工单ID")
     dst_ticket_id = models.IntegerField(verbose_name="目标工单ID")
@@ -98,13 +98,15 @@ class TicketRelation(DbAuditModel, DbUuidModel):
         ordering = ("-created_time",)
 
     def __str__(self):
-        return f"{self.to_workflow_relation.src_workflow.name}-（{self.src_ticket_id}）至 {self.to_workflow_relation.dst_workflow.name}-（{self.dst_ticket_id}）"
+        return "{}-({}) 至 {}-({})".format(
+            self.to_workflow_relation.src_workflow.name,
+            str(self.src_ticket_id),
+            self.to_workflow_relation.dst_workflow.name,
+            str(self.dst_ticket_id)
+        )
 
 
 class TicketCollection(DbAuditModel, DbUuidModel):
-    to_user_info = models.ForeignKey(
-        to='system.UserInfo', on_delete=models.SET_NULL, verbose_name="所属用户", null=True, blank=True
-    )
     ticket_id = models.IntegerField(verbose_name="工单ID")
     is_active = models.BooleanField(verbose_name="是否启用", default=True)
 
@@ -114,7 +116,7 @@ class TicketCollection(DbAuditModel, DbUuidModel):
         ordering = ("-created_time",)
 
     def __str__(self):
-        return f"{self.to_user_info.nickname} - {self.ticket_id}"
+        return f"{self.creator.nickname} - {self.ticket_id}"
 
 
 class FieldTab(DbAuditModel, DbUuidModel):
@@ -163,24 +165,21 @@ class WorkFlowView(DbAuditModel, DbUuidModel):
         BASIC = 0, _("基础搜索")
         ADVANCED = 1, _("高级搜索")
 
-    class SearchModeChoices(models.IntegerChoices):
-        BASIC = 0, _("基础搜索")
-        ADVANCED = 1, _("高级搜索")
-
     class OrderTypeChoices(models.TextChoices):
         ASC = 'ASC', _("升序")
         DESC = 'DESC', _("降序")
 
     to_workflow = models.ForeignKey(
-        to='Workflow', on_delete=models.SET_NULL, verbose_name="所属工作流", null=True, blank=True
+        to='Workflow', on_delete=models.SET_NULL, verbose_name="所属工作流", null=True, blank=True, default=None
     )
     view_type = models.SmallIntegerField(choices=ViewChoices, default=ViewChoices.PERSON, verbose_name="视图类型")
     search_mode = models.SmallIntegerField(
         choices=SearchModeChoices, default=SearchModeChoices.BASIC, verbose_name="搜索类型"
     )
+    search_params = models.TextField(verbose_name='搜索条件', null=True, blank=True, default=None)
     name = models.CharField(verbose_name="名称", max_length=256)
     order_id = models.IntegerField(verbose_name="排序", default=9999)
-    order_field = models.CharField(verbose_name="排序字段", max_length=256, null=True, blank=True)
+    order_field = models.CharField(verbose_name="排序字段", max_length=256, null=True, blank=True, default=None)
     order_type = models.CharField(
         choices=OrderTypeChoices, default=OrderTypeChoices.DESC, verbose_name="排序方式", max_length=4
     )
