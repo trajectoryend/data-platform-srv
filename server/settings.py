@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'common.apps.CommonConfig',
     'system.apps.SystemConfig',
+    'workflow.apps.WorkflowConfig',
     'message.apps.MessageConfig',
     'rest_framework_simplejwt',
     'rest_framework_simplejwt.token_blacklist',

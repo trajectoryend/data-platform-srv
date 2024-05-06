@@ -13,14 +13,16 @@ class WorkflowType(DbAuditModel, DbUuidModel):
     class Meta:
         verbose_name = "工作流类型"
         verbose_name_plural = "工作流类型"
-        ordering = ("-created_time",)
+        ordering = ("order_id",)
 
     def __str__(self):
         return f"{self.name}"
 
 
 class Workflow(DbAuditModel, DbUuidModel):
-    to_workflow_type = models.ForeignKey(to='WorkflowType', on_delete=models.SET_NULL, verbose_name="所属工作流类型")
+    to_workflow_type = models.ForeignKey(
+        to='WorkflowType', on_delete=models.SET_NULL, verbose_name="所属工作流类型", null=True
+    )
     name = models.CharField(verbose_name="名称", max_length=256)
     workflow_id = models.IntegerField(verbose_name="工作流ID")
     order_id = models.IntegerField(verbose_name="排序", default=9999)
@@ -29,14 +31,14 @@ class Workflow(DbAuditModel, DbUuidModel):
     class Meta:
         verbose_name = "工作流"
         verbose_name_plural = "工作流"
-        ordering = ("-created_time",)
+        ordering = ("order_id",)
 
     def __str__(self):
         return f"{self.name}"
 
 
 class TicketValidation(DbAuditModel, DbUuidModel):
-    to_workflow = models.ForeignKey(to='Workflow', on_delete=models.SET_NULL, verbose_name="所属工作流")
+    to_workflow = models.ForeignKey(to='Workflow', on_delete=models.SET_NULL, verbose_name="所属工作流", null=True)
     unique_together = models.CharField(verbose_name="唯一值校验字段，使用逗号隔开", max_length=256)
     is_active = models.BooleanField(verbose_name="是否启用", default=True)
 
@@ -56,10 +58,10 @@ class WorkflowRelation(DbAuditModel, DbUuidModel):
         MANY2MANY = 'Many2Many', _("N - N")
 
     src_workflow = models.ForeignKey(
-        to='Workflow', on_delete=models.SET_NULL, verbose_name="源工作流", related_name="src_workflow"
+        to='Workflow', on_delete=models.SET_NULL, verbose_name="源工作流", related_name="src_workflow", null=True
     )
     dst_workflow = models.ForeignKey(
-        to='Workflow', on_delete=models.SET_NULL, verbose_name="目工作流", related_name="dst_workflow"
+        to='Workflow', on_delete=models.SET_NULL, verbose_name="目工作流", related_name="dst_workflow", null=True
     )
     dst_ticket_search_params = models.TextField(verbose_name="目标工单搜索参数", null=True, blank=True, default=None)
     src_ticket_search_params = models.TextField(verbose_name="源工单搜索参数", null=True, blank=True, default=None)
@@ -86,7 +88,7 @@ class WorkflowRelation(DbAuditModel, DbUuidModel):
 class TicketRelation(DbAuditModel, DbUuidModel):
 
     to_workflow_relation = models.ForeignKey(
-        to='WorkflowRelation', on_delete=models.SET_NULL, verbose_name="所属工作流关系"
+        to='WorkflowRelation', on_delete=models.SET_NULL, verbose_name="所属工作流关系", null=True
     )
     src_ticket_id = models.IntegerField(verbose_name="源工单ID")
     dst_ticket_id = models.IntegerField(verbose_name="目标工单ID")
@@ -131,7 +133,7 @@ class FieldTab(DbAuditModel, DbUuidModel):
     class Meta:
         verbose_name = "TAB签"
         verbose_name_plural = "TAB签"
-        ordering = ("-created_time",)
+        ordering = ("order_id",)
 
     def __str__(self):
         return f"{self.name}"
@@ -149,7 +151,7 @@ class FieldRow(DbAuditModel, DbUuidModel):
     class Meta:
         verbose_name = "字段Row"
         verbose_name_plural = "字段Row"
-        ordering = ("-created_time",)
+        ordering = ("order_id",)
 
     def __str__(self):
         return f"{self.name}"
@@ -188,7 +190,7 @@ class WorkFlowView(DbAuditModel, DbUuidModel):
     class Meta:
         verbose_name = "视图"
         verbose_name_plural = "视图"
-        ordering = ("-created_time",)
+        ordering = ("order_id",)
 
     def __str__(self):
         return f"{self.name}"
