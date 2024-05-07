@@ -14,7 +14,7 @@ from workflow import models
 class WorkflowTypeSerializer(ModelSerializer):
     class Meta:
         model = models.WorkflowType
-        fields = ['pk', 'name', 'icon', 'order_id', 'is_active']
+        fields = ['pk', 'name', 'order_id', 'is_active']
         read_only_fields = ['pk']
 
 

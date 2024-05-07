@@ -42,3 +42,8 @@ MYSQL_USER = get_value_from_env('MYSQL_USER', 'mysql', 'MYSQL_USER', '')
 MYSQL_PASSWORD = get_value_from_env('MYSQL_PASSWORD', 'mysql', 'MYSQL_PASSWORD', '')
 MYSQL_HOST = get_value_from_env('MYSQL_HOST', 'mysql', 'MYSQL_HOST', '')
 MYSQL_PORT = get_value_from_env('MYSQL_PORT', 'mysql', 'MYSQL_PORT', '3306')
+
+WORKFLOW_URL = get_value_from_env('WORKFLOW_URL', 'workflow', 'WORKFLOW_URL', 'http://127.0.0.1')
+WORKFLOW_APPNAME = get_value_from_env('WORKFLOW_APPNAME', 'workflow', 'WORKFLOW_APPNAME', '')
+WORKFLOW_TOKEN = get_value_from_env('WORKFLOW_TOKEN', 'workflow', 'WORKFLOW_TOKEN', '')
+WORKFLOW_ES = get_value_from_env('WORKFLOW_ES', 'workflow', 'WORKFLOW_ES', '')

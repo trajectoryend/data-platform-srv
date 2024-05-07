@@ -4,9 +4,8 @@ from django.utils.translation import gettext_lazy as _
 from common.core.models import DbAuditModel, DbUuidModel
 
 
-class WorkflowType(DbAuditModel, DbUuidModel):
+class WorkflowType(DbUuidModel):
     name = models.CharField(verbose_name="名称", max_length=256, null=True, blank=True)
-    icon = models.CharField(verbose_name="图标", max_length=256, null=True, blank=True)
     order_id = models.IntegerField(verbose_name="排序", default=9999)
     is_active = models.BooleanField(verbose_name="是否启用", default=True)
 
@@ -37,7 +36,7 @@ class Workflow(DbAuditModel, DbUuidModel):
         return f"{self.name}"
 
 
-class TicketValidation(DbAuditModel, DbUuidModel):
+class TicketValidation(DbUuidModel):
     to_workflow = models.ForeignKey(to='Workflow', on_delete=models.SET_NULL, verbose_name="所属工作流", null=True)
     unique_together = models.CharField(verbose_name="唯一值校验字段，使用逗号隔开", max_length=256)
     is_active = models.BooleanField(verbose_name="是否启用", default=True)
@@ -45,7 +44,6 @@ class TicketValidation(DbAuditModel, DbUuidModel):
     class Meta:
         verbose_name = "工单唯一值校验"
         verbose_name_plural = "工单唯一值校验"
-        ordering = ("-created_time",)
 
     def __str__(self):
         return f"{self.to_workflow.name}"
@@ -121,7 +119,7 @@ class TicketCollection(DbAuditModel, DbUuidModel):
         return f"{self.creator.nickname} - {self.ticket_id}"
 
 
-class FieldTab(DbAuditModel, DbUuidModel):
+class FieldTab(DbUuidModel):
     to_workflow = models.ForeignKey(
         to='Workflow', on_delete=models.SET_NULL, verbose_name="所属工作流", null=True, blank=True
     )
@@ -139,7 +137,7 @@ class FieldTab(DbAuditModel, DbUuidModel):
         return f"{self.name}"
 
 
-class FieldRow(DbAuditModel, DbUuidModel):
+class FieldRow(DbUuidModel):
     to_field_tab = models.ForeignKey(
         to='FieldTab', on_delete=models.SET_NULL, verbose_name="所属TAB签", null=True, blank=True
     )
@@ -159,13 +157,13 @@ class FieldRow(DbAuditModel, DbUuidModel):
 
 class WorkFlowView(DbAuditModel, DbUuidModel):
 
-    class ViewChoices(models.IntegerChoices):
-        SYSTEM = 0, _("系统视图")
-        PERSON = 2, _("用户视图")
+    class ViewChoices(models.TextChoices):
+        SYSTEM = 'SYSTEM', _("系统视图")
+        PERSON = 'PERSON', _("用户视图")
 
-    class SearchModeChoices(models.IntegerChoices):
-        BASIC = 0, _("基础搜索")
-        ADVANCED = 1, _("高级搜索")
+    class SearchModeChoices(models.TextChoices):
+        BASIC = 'BASIC', _("基础搜索")
+        ADVANCED = 'ADVANCED', _("高级搜索")
 
     class OrderTypeChoices(models.TextChoices):
         ASC = 'ASC', _("升序")
@@ -174,11 +172,14 @@ class WorkFlowView(DbAuditModel, DbUuidModel):
     to_workflow = models.ForeignKey(
         to='Workflow', on_delete=models.SET_NULL, verbose_name="所属工作流", null=True, blank=True, default=None
     )
-    view_type = models.SmallIntegerField(choices=ViewChoices, default=ViewChoices.PERSON, verbose_name="视图类型")
-    search_mode = models.SmallIntegerField(
-        choices=SearchModeChoices, default=SearchModeChoices.BASIC, verbose_name="搜索类型"
+    view_type = models.CharField(
+        choices=ViewChoices, default=ViewChoices.PERSON, verbose_name="视图类型", max_length=6
+    )
+    search_mode = models.CharField(
+        choices=SearchModeChoices, default=SearchModeChoices.BASIC, verbose_name="搜索类型", max_length=8
     )
     search_params = models.TextField(verbose_name='搜索条件', null=True, blank=True, default=None)
+    table_column = models.TextField(verbose_name='表头字段', null=True, blank=True, default=None)
     name = models.CharField(verbose_name="名称", max_length=256)
     order_id = models.IntegerField(verbose_name="排序", default=9999)
     order_field = models.CharField(verbose_name="排序字段", max_length=256, null=True, blank=True, default=None)
