@@ -2,25 +2,15 @@ import logging
 
 from rest_framework import viewsets
 
-from django_filters import rest_framework as filters
-
-from common.core.filter import BaseFilterSet
 from common.core.modelset import BaseModelSet
 from common.core.permission import IsAuthenticated
 from common.core.response import ApiResponse
 from workflow.models import WorkflowType
+from workflow.utils.filter import WorkflowTypeFilter
 from workflow.utils.serializer import WorkflowTypeSerializer, ListWorkflowTypeSerializer
 from workflow.utils.loonflow import loonflow
 
 logger = logging.getLogger(__name__)
-
-
-class WorkflowTypeFilter(BaseFilterSet):
-    name = filters.CharFilter(field_name='name', lookup_expr='icontains')
-
-    class Meta:
-        model = WorkflowType
-        fields = ['name']
 
 
 class WorkflowTypeView(BaseModelSet):
@@ -32,13 +22,25 @@ class WorkflowTypeView(BaseModelSet):
     filterset_class = WorkflowTypeFilter
 
 
-class WorkflowsCustomFieldsView(viewsets.ViewSet):
+class WorkflowCustomFieldView(viewsets.ViewSet):
     permission_classes = [IsAuthenticated]
 
     def list(self, request, *args, **kwargs):
-        params = request.query_params
+        params = self.request.query_params
         workflow_id = params.get('workflow_id', None)
         if workflow_id:
-            data = loonflow.get_workflows_custom_fields(1, request.user.username)
+            data = loonflow.list_workflow_custom_field(workflow_id, request.user.username)
+            return ApiResponse(data=data)
+        return ApiResponse(code=1001, status=400, detail="参数错误")
+
+
+class WorkflowInitStateView(viewsets.ViewSet):
+    permission_classes = [IsAuthenticated]
+
+    def list(self, request, *args, **kwargs):
+        params = self.request.query_params
+        workflow_id = params.get('workflow_id', None)
+        if workflow_id:
+            data = loonflow.get_workflow_init_state(workflow_id, request.user.username)
             return ApiResponse(data=data)
         return ApiResponse(code=1001, status=400, detail="参数错误")

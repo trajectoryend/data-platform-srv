@@ -1,12 +1,19 @@
 from rest_framework.routers import SimpleRouter
 
-from workflow.views.workflow import WorkflowTypeView, WorkflowsCustomFieldsView
+from workflow.views.workflow import WorkflowTypeView, WorkflowCustomFieldView, WorkflowInitStateView
+from workflow.views.ticket import SearchTicketView, TicketView, TicketTransitionView, TicketFlowlogView
 
 router = SimpleRouter(False)
 
-# 系统设置相关路由
+# workflow相关路由
 router.register('workflow-type', WorkflowTypeView, basename='workflow-type')
-router.register('workflow-custom-fields', WorkflowsCustomFieldsView, basename='workflow-custom-fields')
+router.register('workflow-custom-field', WorkflowCustomFieldView, basename='workflow-custom-field')
+router.register('workflow-init-state', WorkflowInitStateView, basename='workflow-init-state')
 
+# 工单相关相关路由
+router.register('search-ticket', SearchTicketView, basename='search-ticket')
+router.register('ticket', TicketView, basename='ticket')
+router.register('ticket-transition', TicketTransitionView, basename='ticket-transition')
+router.register('ticket-flowlog', TicketFlowlogView, basename='ticket-flowlog')
 
 urlpatterns = router.get_urls()

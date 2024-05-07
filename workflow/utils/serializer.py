@@ -1,11 +1,3 @@
-import json
-import os.path
-
-from django.conf import settings
-from django.contrib.auth.hashers import make_password
-from django.db import transaction
-from rest_framework import serializers
-from rest_framework.exceptions import ValidationError
 from rest_framework.serializers import ModelSerializer
 
 from workflow import models
@@ -23,4 +15,3 @@ class ListWorkflowTypeSerializer(ModelSerializer):
         model = models.WorkflowType
         fields = ['pk', 'name']
         read_only_fields = ['pk']
-
