@@ -155,7 +155,7 @@ class FieldRow(DbUuidModel):
         return f"{self.name}"
 
 
-class WorkFlowView(DbAuditModel, DbUuidModel):
+class View(DbAuditModel, DbUuidModel):
 
     class ViewChoices(models.TextChoices):
         SYSTEM = 'SYSTEM', _("系统视图")

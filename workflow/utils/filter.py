@@ -2,7 +2,7 @@
 from django_filters import rest_framework as filters
 
 from common.core.filter import BaseFilterSet
-from workflow.models import WorkflowType
+from workflow.models import WorkflowType, Workflow, View
 
 
 class WorkflowTypeFilter(BaseFilterSet):
@@ -11,3 +11,17 @@ class WorkflowTypeFilter(BaseFilterSet):
     class Meta:
         model = WorkflowType
         fields = ['name']
+
+
+class WorkflowFilter(BaseFilterSet):
+
+    class Meta:
+        model = Workflow
+        fields = ['to_workflow_type']
+
+
+class ViewFilter(BaseFilterSet):
+
+    class Meta:
+        model = View
+        fields = ['to_workflow']

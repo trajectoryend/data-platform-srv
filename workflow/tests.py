@@ -14,8 +14,8 @@ search = {
         "value": 1,
         "value_name": "VPN申请",
         "field_type_id": 45,
-        "sort": 10,
-        "condition_type": "basic"
+        "field_type": "basic",
+        "sort": 10
     }, {
         "key": "gmt_created",
         "key_name": "创建时间",
@@ -23,8 +23,8 @@ search = {
         "action_name": "区间",
         "value": ["2024-04-01 00:00:00", "2024-04-30 00:00:00"],
         "value_name": "2024-04-01 00:00 ~ 2024-04-30 00:00",
-        "condition_type": "basic",
         "field_type_id": 30,
+        "field_type": "basic",
         "sort": 20
     }, {
         "key": "title",
@@ -33,9 +33,9 @@ search = {
         "action_name": "等于",
         "value": "all",
         "value_name": "all",
-        "condition_type": "basic",
+        "field_type": "basic",
         "field_type_id": 5,
-        "sort": 4000
+        "sort": 30
     }]
 }
 
