@@ -4,7 +4,8 @@ search = {
     "search_type": "condition",
     "operate": "and",
     "page": 1,
-    "per_page": 20,
+    "page_size": 20,
+    "search": '',
     "category": "all",
     "data": [{
         "key": "workflow_ids",

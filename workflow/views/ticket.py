@@ -19,7 +19,7 @@ def generate_search_dict(search_json):
     for i in search_json.get("data", []):
         if i['key'] == 'gmt_created':
             search_dict['create_start'] = i['value'][0]
-            search_dict['create_end'] = i['value'][0]
+            search_dict['create_end'] = i['value'][1]
         else:
             search_dict[i['key']] = i['value']
     return search_dict

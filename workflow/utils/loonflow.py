@@ -1,8 +1,51 @@
 import hashlib
+import random
 import time
 import requests
 
 from server.config import WORKFLOW_URL, WORKFLOW_APPNAME, WORKFLOW_TOKEN
+from workflow.models import FieldRow, FieldTab
+
+
+def deal_custom_field(workflow_id, field_list):
+    field_list_obj = []
+    field_row = FieldRow.objects.filter(to_field_tab__to_workflow__workflow_id=int(workflow_id), is_active=True)
+
+
+    if field_row.exists():
+        for j in field_row:
+            field_list_obj.append({
+                'id': j.to_field_tab_id,
+                'name': j.to_field_tab.name,
+                'field_row_list': [
+                    {
+                        'id': j.id,
+                        'name': j.name,
+                        'field_list': []
+                    }
+                ]
+            })
+        none_row_list = []
+        for i in field_list:
+
+            i['field_col'] = random.randint(8, 12)
+            if i.get('label', {}).get('field_row', '') == '':
+                none_row_list.append(i)
+
+        if len(none_row_list):
+            field_list_obj.append({
+                'id': '',
+                'name': '其他信息',
+                'field_row_list': [
+                    {
+                        'id': '',
+                        'name': '其他行',
+                        'field_list': none_row_list
+                    }
+                ]
+            })
+
+    return field_list_obj
 
 
 class Loonflow(object):
@@ -51,13 +94,39 @@ class Loonflow(object):
         return r.json().get('data')
 
     def retrieve_ticket(self, ticket_id, username):
-        r = requests.get(
+        ticket = requests.get(
             url=self.workflow_url + '/api/v1.0/tickets/{ticket_id}'.format(ticket_id=ticket_id),
             headers=self.get_headers(username),
         )
-        if r.json().get('code') != 0:
-            raise Exception(r.json().get('msg'))
-        return r.json().get('data')
+        transition = requests.get(
+            url=self.workflow_url + '/api/v1.0/tickets/{ticket_id}/transitions'.format(ticket_id=ticket_id),
+            headers=self.get_headers(username),
+        )
+
+        if ticket.json().get('code') != 0:
+            raise Exception(ticket.json().get('msg'))
+        ticket_data = ticket.json().get('data', {'value': {}}).get('value', {})
+
+        ticket_data['field_list'] = deal_custom_field(
+            ticket_data.get('workflow_id', 0), ticket_data.get('field_list', [])
+        )
+
+        if transition.json().get('code') != 0:
+            raise Exception(transition.json().get('msg'))
+        transition_data = transition.json().get('data', {'value': []}).get('value', [])
+
+        # 判断是否接单状态
+        ticket_data['is_accept_status'] = False
+        for i in transition_data:
+            if i.get('is_accept', False):
+                ticket_data['is_accept_status'] = True
+                break
+
+        # 判断当前状态是否可以进入加签状态
+        ticket_data['can_add_node'] = bool(len(transition_data))
+
+        ticket_data['transition'] = transition.json().get('data', {'value': []}).get('value', [])
+        return ticket_data
 
     def patch_ticket(self, ticket_id, data, username):
         r = requests.patch(
